@@ -25,6 +25,7 @@ Once we map dolphin sound patterns into this space, we can do the same for corpu
 In short:
 
 ::
+
 	dolphin_sounds | echoprint_codegen | find_patterns | gensim
 	for corpus in human_corpuses: corpus | gensim
 
