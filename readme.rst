@@ -1,6 +1,9 @@
 Dolph
 =====
 
+.. image:: https://travis-ci.org/garbados/dolph.svg?branch=master
+    :target: https://travis-ci.org/garbados/dolph
+
 Dolph is an machine translator between languages spoken by dolphins, and
 arbitrary languages spoken by humans.
 
