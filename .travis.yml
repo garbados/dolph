@@ -1,7 +1,11 @@
 language: python
+sudo: required
 python:
 - '2.7'
 - '3.3'
 - pypy
+before_install:
+- sudo apt-get update -qq
+- sudo apt-get install gfortran libopenblas-dev liblapack-dev
 install:
 - make install
